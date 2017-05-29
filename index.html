@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+    <title>Your Page Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bg.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body onload="startTime()">
+
+<!-- Clock and search -->
+<div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <div class="center-align" id="txt"></div>
+      <div class="row center">
+        <form method="get" id="search" action="http://duckduckgo.com/">
+          <input class="search-input" type="text" name="q" maxlength="255" placeholder="Search DuckDuckGo" autofocus/>
+          <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+        </form>
+      </div>  
+    </div>
+  </div>
+
+<!-- Section for link containers -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <!-- Link container 1 -->
+        <div class="col s12 m4">
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3"><span class="white-text">Link Category</span></div>
+            <div class="card-content">
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link container 2 -->
+        <div class="col s12 m4">
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3"><span class="white-text">Link Category</span></div>
+            <div class="card-content">
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link container 3 -->
+        <div class="col s12 m4">
+          <div class="card white hoverable">
+            <div class="card-content blue-grey darken-3"><span class="white-text">Link Category</span></div>
+              <div class="card-content">
+                <ul>
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a></li>
+                  <li><a href="#">Link 4</a></li>
+                  <li><a href="#">Link 5</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+  </div>
+  </div>
+</body>
+</html>
